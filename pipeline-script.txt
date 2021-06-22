@@ -28,7 +28,7 @@ pipeline{
         stage('Deploy'){
             steps{
                
-                    bat 'java -cp java-project-1.0-SNAPSHOT.jar com.sapient.hashing.App'
+                    bat 'java -cp java-project-1.0-SNAPSHOT.jar main.java.com.sapient.hashing.App'
                 
             }
         }
